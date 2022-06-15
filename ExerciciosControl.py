@@ -14,6 +14,16 @@ def menu():
           '\n8. Exercício 8' +
           '\n9. Exercício 9' +
           '\n10. Exercício 10' +
+          '\n11. Exercício 11' +
+          '\n12. Exercício 12' +
+          '\n13. Exercício 13' +
+          '\n14. Exercício 14' +
+          '\n15. Exercício 15' +
+          '\n16. Exercício 16' +
+          '\n17. Exercício 17' +
+          '\n18. Exercício 18' +
+          '\n19. Exercício 19' +
+          '\n20. Exercício 20' +
           '\n0. Sair' +
           '\n\nEscolha uma das opções acima: ')
     this.opcao = int(input())
@@ -41,5 +51,27 @@ def executar():
             print(ExerciciosModel.exercicio8())
         elif this.opcao == 9:
             print(ExerciciosModel.exercicio9())
+        elif this.opcao == 10:
+            print(ExerciciosModel.exercicio10())
+        elif this.opcao == 11:
+            print(ExerciciosModel.exercicio11())
+        elif this.opcao == 12:
+            print(ExerciciosModel.exercicio12())
+        elif this.opcao == 13:
+            print(ExerciciosModel.exercicio13())
+        elif this.opcao == 14:
+            print(ExerciciosModel.exercicio14())
+        elif this.opcao == 15:
+            print(ExerciciosModel.exercicio15())
+        elif this.opcao == 16:
+            print(ExerciciosModel.exercicio16())
+        elif this.opcao == 17:
+            print(ExerciciosModel.exercicio17())
+        elif this.opcao == 18:
+            print(ExerciciosModel.exercicio18())
+        elif this.opcao == 19:
+            print(ExerciciosModel.exercicio19())
+        elif this.opcao == 20:
+            print(ExerciciosModel.exercicio20())
         else:
             print('Opção informada não é válida!')
